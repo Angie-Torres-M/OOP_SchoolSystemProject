@@ -1,0 +1,40 @@
+School System Project - Explicación General
+
+Este proyecto modela un sistema escolar sencillo usando programación orientada a objetos en Java. El objetivo es practicar clases, objetos, colecciones, métodos, sobrecarga y encapsulamiento básico.
+
+1. Clase Student
+   Representa a un estudiante con nombre, apellido, matrícula, calificación y año escolar.
+   Incluye métodos para:
+
+* Imprimir el nombre completo
+* Verificar si el estudiante está aprobado (grade >= 60)
+* Avanzar de año si la calificación es suficiente, mostrando un mensaje en consola
+
+Cuenta con tres constructores que permiten crear estudiantes con diferentes niveles de información y utiliza getters para acceder de forma segura a sus atributos.
+
+2. Clase Course
+   Representa un curso con nombre, profesor y año. Mantiene una colección de estudiantes inscritos usando un ArrayList.
+
+Incluye métodos para:
+
+* Inscribir y desinscribir estudiantes
+* Contar el número de estudiantes inscritos
+* Obtener la mejor calificación del curso
+* Sobrecarga del método enroll para permitir inscribir un arreglo completo de estudiantes
+
+Funciones adicionales:
+
+* Calcular el promedio de calificaciones del curso
+* Generar un ranking ordenado por calificación de mayor a menor
+* Indicar, para cada estudiante, si su calificación está por encima o por debajo del promedio del curso
+
+3. Clase Main
+   Permite probar todo el sistema creando objetos Student y Course. Ejecuta inscripciones, cálculos y validaciones, mostrando los resultados en consola, incluyendo:
+
+* Verificación de aprobación de un estudiante
+* Mensajes cuando un estudiante avanza de año
+* Cálculo y muestra del promedio del curso
+* Ranking de estudiantes
+* Estado de cada estudiante respecto al promedio (encima o por debajo)
+
+El proyecto demuestra el uso de objetos, listas, métodos, comparaciones, condicionales, sobrecarga y buenas prácticas básicas de POO en Java.
